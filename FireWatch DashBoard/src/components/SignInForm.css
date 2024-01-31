@@ -1,0 +1,170 @@
+.welcome-back {
+  position: relative;
+  font-weight: 600;
+}
+.empower-your-admin {
+  position: relative;
+  font-size: var(--size-16-size-16-regular-size);
+  color: var(--text-color-text-3);
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.email {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+.email-wrapper,
+.input-child {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.email-wrapper {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-3xs) 0;
+  align-items: flex-start;
+}
+.input-child {
+  border: 1px solid var(--darkish-color-dark-2);
+  font-weight: 500;
+  font-family: var(--extra-font-size-18-semibold);
+  font-size: var(--size-14-size-14-medium-size);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-base)
+    var(--padding-xl);
+  align-items: center;
+  color: #fff;
+}
+.input,
+.input-child,
+.input-item {
+  align-self: stretch;
+  display: flex;
+}
+.input {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.input-item {
+  border: 1px solid var(--darkish-color-dark-2);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 48px;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-6xl) var(--padding-base)
+    var(--padding-xl);
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+}
+.input1,
+.inputsform {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.inputsform {
+  height: 175px;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.reminders {
+  position: relative;
+  width: 404px;
+  height: 17px;
+}
+.main1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--size-14-size-14-medium-size);
+}
+.sign-in2 {
+  position: relative;
+  font-size: var(--size-16-size-16-regular-size);
+  font-weight: 600;
+  font-family: var(--extra-font-size-18-semibold);
+  color: var(--text-color-text-1);
+  text-align: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: var(--primary-color);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icongoogle {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sign-in-with {
+  position: relative;
+  font-size: var(--size-16-size-16-regular-size);
+  font-weight: 600;
+  font-family: var(--extra-font-size-18-semibold);
+  color: var(--text-color-text-3);
+  text-align: left;
+}
+.button1 {
+  cursor: pointer;
+  border: 1px solid var(--darkish-color-dark-2);
+  padding: var(--padding-smi);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.signinbuttons {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.sign-in1,
+.signinbuttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sign-in1 {
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--text-color-pure-white);
+  font-family: var(--extra-font-size-18-semibold);
+}
+@media screen and (max-width: 960px) {
+  .reminders,
+  .sign-in1 {
+    align-self: stretch;
+    width: auto;
+  }
+}
